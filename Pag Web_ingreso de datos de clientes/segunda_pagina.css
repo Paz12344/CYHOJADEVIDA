@@ -1,0 +1,28 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #e94258;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el botón de cambio de color */
+#cambiar-color-button {
+    background-color:#e94258 ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para la lista de clientes */
+#lista-clientes {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+#lista-clientes li {
+    margin-bottom: 10px;
+}
