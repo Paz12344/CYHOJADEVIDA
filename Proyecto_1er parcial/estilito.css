@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c4e39d;
+}
+
+header {
+    background-color: #bbdfa5;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="time"] /* Nuevo campo Hora */,
+input[type="text"] /* Nuevo campo Tema */,
+input[type="text"] /* Nuevo campo Tutor */ {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f5e3f2;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #42e971;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4673a3;
+}
+
+/* Estilos para el formulario de registro de tutoría */
+#registro-tutoria label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#registro-tutoria input[type="text"],
+#registro-tutoria input[type="email"],
+#registro-tutoria input[type="tel"],
+#registro-tutoria input[type="time"], /* Nuevo campo Hora */
+#registro-tutoria input[type="text"], /* Nuevo campo Tema */
+#registro-tutoria input[type="text"] /* Nuevo campo Tutor */ {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#registro-tutoria input[type="submit"] {
+    background-color: #3daf29;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#registro-tutoria input[type="submit"]:hover {
+    background-color: #3daf29;
+}
+
+/* Estilo personalizado para el botón "Ver Tutorías Registradas" */
+.custom-button {
+    background-color: #3daf29;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para la lista de tutorías registradas */
+#tutorias-registradas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tutorias-registradas ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos adicionales pueden ir aquí */

@@ -1,0 +1,124 @@
+
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 5;
+            padding: 5;  
+            background-color: #98d966;
+
+        }
+
+        /* Estilos del encabezado */
+        header {
+            background-color: #ffffff;
+            color: #13b31b;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 5px solid #13b31b;
+    border-bottom: 5px solid #13b31b; 
+    border: 5px solid #13b31b; 
+        }
+
+        .logo img {
+            max-width: 900px;
+            
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        /* Estilos del héroe */
+        .hero {
+            background-image: url('hero_bg.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 100px 0;
+            color: #000000;
+        }
+
+        /* Estilos de la sección Acerca de Nosotros */
+        .about {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        /* Estilos de la sección Características Principales */
+        .features {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .feature {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #003b1d;
+            border-radius: 5px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature img {
+            max-width: 80px;
+            height: auto;
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            background-color: #13b31b;;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+/* Estilos para los enlaces resaltados sin línea subrayada */
+a {
+    text-decoration: none; /* Elimina la línea subrayada */
+    font-weight: bold; /* Aplica negrita al texto del enlace */
+    color: black; /* Color del texto */
+    padding: 2px 4px; /* Ajusta el relleno para resaltar el texto */
+}
+/* Estilo para el punto verde */
+.feature {
+    position: relative;
+}
+
+/* Estilo para el punto verde dentro del cuadro */
+.feature {
+    position: relative;
+}
+
+.feature::before {
+    content: "";
+    display: block;
+    width: 8px; /* Ancho del punto */
+    height: 8px; /* Alto del punto */
+    background-color: #4CAF50; /* Color del punto verde */
+    border-radius: 50%; /* Para que sea un círculo */
+    position: absolute;
+    left: 10px; /* Distancia desde el margen izquierdo del cuadro */
+    top: 50%; /* Centro verticalmente dentro del cuadro */
+    transform: translateY(-50%);
+}
+
+
+
+
+

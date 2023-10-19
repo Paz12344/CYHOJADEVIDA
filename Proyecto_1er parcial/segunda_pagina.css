@@ -1,0 +1,62 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #4CAF50; /* Fondo verde bajo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el botón de cambio de color */
+#cambiar-color-button {
+    background-color: #219653; /* Verde un poco más fuerte */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para la lista de clientes */
+#lista-clientes {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+#lista-clientes li {
+    margin-bottom: 10px;
+}
+
+#tutorias-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tutoria-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Tamaño de cada cuadro, puedes ajustar el valor según tus preferencias */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo adicional para el botón de borrar en el cuadro */
+.tutoria-box .borrar-button {
+    background-color: #219653; /* Verde un poco más fuerte */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tutoria-box .borrar-button:hover {
+    background-color: #1B8743; /* Color más oscuro al pasar el cursor */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c4e39d;
