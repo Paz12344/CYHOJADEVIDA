@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.step {
+    background-color: #ccc;
+    padding: 10px 20px;
+    border: 1px solid #999;
+    border-radius: 20px;
+}
+
+.step.active {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.step-content {
+    display: none;
+}
+
+.step-content.active {
+    display: block;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button.prev-button {
+    background-color: #ccc;
+}
+
+button.submit-button {
+    background-color: #28A745;
+}
+
+/* Estilos generales */
+body {
+    background: url('https://img.freepik.com/vector-gratis/fondo-geometrico-abstracto-verde_23-2148370301.jpg?t=st=1698285024~exp=1698285624~hmac=a64a23a825aa5526f745fa1590ec5628a443e73feb5b937d820789607c08fac5');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
